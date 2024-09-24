@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Viagem para Eden</title>
+
+</head>
+
+<body>
+    <header class="container-fluid p-2 bg-warning text-center">
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Flamengo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Elenco</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ingressos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sócio-torcedor
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </div>
+          </nav>
+        <h1>Bem vindo ao caos</h1>
+    </header>
+    <section class="container-fluid bg-light text-center p-2">
+        <h2>Caos do tudo</h2>
+        <p>
+            Bem vindo a eden caminho do caos Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non odio est.
+            Ut rutrum libero non enim molestie sollicitudin. Aliquam tempus a nibh ac auctor. Sed interdum tempus
+            lobortis. Fusce lobortis enim a erat ultrices convallis. Sed vehicula turpis id efficitur sagittis. Proin
+            sit amet eros eget massa tristique auctor. Proin commodo cursus nisl sodales consectetur. Vestibulum vel
+            quam vitae ex hendrerit molestie eu sed orci.</p>
+        <br><br>
+        <a href="https://www.lipsum.com/feed/html">link</a>
+        <hr>
+        </p>
+
+        <p>Bem vindo a eden caminho do caos Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non odio est.
+        Ut rutrum libero non enim molestie sollicitudin. Aliquam tempus a nibh ac auctor. Sed interdum tempus
+        lobortis. Fusce lobortis enim a erat ultrices convallis. Sed vehicula turpis id efficitur sagittis. Proin
+        sit amet eros eget massa tristique auctor. Proin commodo cursus nisl sodales consectetur. Vestibulum vel
+        quam vitae ex hendrerit molestie eu sed orci.
+<br><br>
+<hr>
+    </p>
+    <div class="row">
+        <figure class="col text-center">
+            <img src="/img/download.jpg" alt="Escudo 1 flamengo">
+            <figcaption>Fla</figcaption>
+        </figure class="col text-center">
+        <figure class="col text-center">
+            <img src="/img/download.png" alt="Escudo 2 flamengo">
+            <figcaption>Fla 2</figcaption>
+        </figure>
+        <figure class="col text-center">
+            <img src="/img/images.jpg" alt="Escudo 3 flamengo">
+            <figcaption>Fla 3</figcaption>
+        </figure>
+    </div>
+       
+    </section>
+   
+     <br><br><br><br>
+     <section class="container-fluid bg-light">
+        <fieldset>
+        <h2>Exemplo de formulario</h2> 
+        <form method="GET" action="">
+
+            <label>Nome</label><br>
+            <input type="text" required name="Nome"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label>Data de Ida</label><br>
+            <input type="date" name="dataIda"><br><br>
+
+            <label>Data de Volta</label><br>
+            <input type="date" name="dataVolta"><br><br>
+
+            <label>Quantidade de pessoas</label><br>
+            <input type="number" name="qtdPessoas"><br><br>
+
+            <label>Senha</label><br>
+            <input type="password" name="password"><br><br>
+
+            <label>Comentário</label><br>
+            <textarea rows="6" name="Comentário"></textarea><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Checkbox</legend>
+            <label>
+                <br><input type="checkbox" name="passagens" value="Passagens"> Compra de passagens
+            </label>
+            <label>
+                <br><input type="checkbox" name="hospedagem" value="hospedagem"> Reserva de hospedagens
+            </label>
+            <label>
+                <br><input type="checkbox" name="veiculos" value="Veiculos"> Reserva de veiculos<br><br>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Escolha a forma de pagamento (radio)</legend>
+            <label><br>
+                <br><input type="radio" name="formaPagamento" value="cartão de crédito"> Cartão de crédito
+                <br><input type="radio" name="formaPagamento" value="pix"> Pix
+                <br><input type="radio" name="formaPagamento" value="boleto"> boleto
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Escolha o prazo para pagamento (lista suspensa)</legend>
+            <select name="prazoPagamento">
+                <option value="aVista">A vista</option>
+                <option value="5x">5x sem Juros</option> 
+                <option value="10x" selected>10x com Juros</option>
+                
+            </select>
+        </fieldset>
+
+            <button>Salvar</button><br>
+        </fieldset>
+        </form>
+     </section>
+     <section class="container-fluid bg-light text-center">
+        <table class="table table-warning table-striped table-hover table-bordered border-warning" >
+            <h2>Alguns jogos, exemplo em HTML 5</h2>
+            <p>só exemplo em HTML 5</p>
+            <caption>Exemplo de tabela em HTML 5</caption>
+            <thead class="table-secondary">
+                <tr>
+                    <th>JOGO</th>
+                    <th>GENERO</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>Counter Strike</td>
+                    <td>FPS</td>
+                </tr>
+                <tr>
+                    <td>The Witcher 3</td>
+                    <td>RPG</td>
+                </tr>
+                <tr>
+                    <td>Fortnite</td>
+                    <td>Battleroyal</td>
+                </tr>
+            </tbody>
+            
+        </table>
+     </section>
+    <footer class="container-fluid bg bg-warning p-2 text-center">
+        <P>Desenvolvido por Alessandro Oliveira</P>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
